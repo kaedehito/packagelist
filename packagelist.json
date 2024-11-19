@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"user": "kaedehito",
+	"list": [
+		{
+			"name": "cocoa",
+			"url": "https://github.com/kaedehito/cocoa",
+			"license": "MIT",
+			"language": "Rust",
+			"desc": "Modern shell made of rust",
+			"dependencies": ["cargo", "rustc"],
+			"version": "1.0.0"
+		},
+		{
+			"name": "ral",
+			"url": "https://github.com/kaedehito/ral",
+			"license": "MIT",
+			"language": "Rust",
+			"desc": "Rails of package management",
+			"dependencies": ["cargo", "rustc"],
+			"version": "1.0.0"
+		},
+		{
+			"name": "qase",
+			"url": "https://github.com/kaedehito/qase",
+			"license": "MIT",
+			"language": "C",
+			"desc": "Quick Audio Stream Emurater",
+			"dependencies": ["gcc", "cmake", "pkg-config"],
+			"version": "1.0.0"
+		}
+	]
+}
