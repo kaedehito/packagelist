@@ -28,6 +28,15 @@
 			"desc": "Quick Audio Stream Emurater",
 			"dependencies": ["gcc", "cmake", "pkg-config"],
 			"version": "1.0.0"
+		},
+		{
+			"name": "rfoc",
+			"url": "https://github.com/kaedehito/rfoc",
+			"license": "MIT",
+			"language": "Rust",
+			"desc": "File manipulation commands",
+			"dependencies": ["cargo", "rustc"],
+			"version": "1.0.0"
 		}
 	]
 }
